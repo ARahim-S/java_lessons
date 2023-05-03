@@ -95,5 +95,8 @@ public class Variables01 {
         2)ulke ve sehir isimleri icin iki variable olusturun ve bunlari yazdirin
         3) iki tamsayi turunde variabel olusturup toplamini  yazdirin.
         */
+        
+   
+        
     }
 }
