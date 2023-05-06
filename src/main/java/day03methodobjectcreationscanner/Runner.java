@@ -30,7 +30,11 @@ public class Runner {
             objecti olusturun ve obje uzerinde bu ozellikleri kullanini
          */
 
-
+        Teacher bestTeacher = new Teacher();
+        System.out.println("bestTeacher.firstName = " + bestTeacher.firstName);
+        System.out.println("bestTeacher.lastName = " + bestTeacher.lastName);
+        System.out.println("bestTeacher.age = " + bestTeacher.age);
+        bestTeacher.teach();
 
     }
 

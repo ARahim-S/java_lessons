@@ -55,10 +55,8 @@ public class MethodCreation01 {
     //methodun return type i void ise method body icinde return keywordu yazilmaz.
 
 
-    /*
-    1)  Cemberin çevresini hesaplayan methodu oluşturunuz kullanınız
-    2)  Dairenin alanını hesaplayn methodu oluşturunuz ve kullanınız.
-     */
+
+
 
 
 }
