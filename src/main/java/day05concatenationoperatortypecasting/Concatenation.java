@@ -14,9 +14,9 @@ public class Concatenation {
         System.out.println(a + s + b);//10elma11
 
         // Java da "+" sembolu iki sayi arasinda kullanilirsa "toplama islemi" olur
-        //Java da "+" sembolu iki string arasinda veya bir string ve bir sayi arasinda kullanilirsa concatination islemi olur
-        //concatination islemi birlestirme yapar
-        //Note: Concatination islemlerinde java matematikte ki islem onceligi kurallarini kullanir
+        //Java da "+" sembolu iki string arasinda veya bir string ve bir sayi arasinda kullanilirsa concatenation islemi olur
+        //concatenation islemi birlestirme yapar
+        //Note: Concatenation islemlerinde java matematikte ki islem onceligi kurallarini kullanir
 
         /*
         1) Once uslu sayilar

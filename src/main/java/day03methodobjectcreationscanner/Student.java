@@ -4,7 +4,7 @@ public class Student {
     //Variable (==>pasif ozellikler)
     public String name = "Ali Can";
     public byte grade =8;
-    public String adress ="Ankara";
+    public String address ="Ankara";
 
     //method (==>aktif ozellikler)
     public void study(){
