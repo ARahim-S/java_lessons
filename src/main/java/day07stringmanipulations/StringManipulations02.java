@@ -1,0 +1,30 @@
+package day07stringmanipulations;
+
+import java.util.Scanner;
+
+public class StringManipulations02 {
+    public static void main(String[] args) {
+        /*
+        Ornek:
+            Asagidaki kurallara gore kullanicinin girdigi password u kontrol ediniz
+                1) En az 8 charcter olsun
+                2) Space characteri passwordde olmasin
+                3) En az bir buyuk harf olsun
+                4) En az bir kucuk harf olsun
+                5) En az bir rakam olsun
+         */
+        Scanner input = new Scanner(System.in);
+        System.out.println("Lutfen passwordunuzu giriniz...");
+        String pwd = input.nextLine();
+
+        //  1) En az 8 character olsun
+        boolean first = pwd.length() > 7;
+        System.out.println(" first  " + first);
+
+        // 2) Space characteri passwordde olmasin
+        boolean second = !pwd.contains(" ");
+        System.out.println("second = " + second);
+
+
+    }
+}
