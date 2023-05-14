@@ -56,10 +56,28 @@ public class Homework08 {
         System.out.println("Lütfen password giriniz!");
         String password = input.nextLine();
 
+        //a)
         boolean firstCondition = password.length() > 6;
         System.out.println("firstCondition = " + firstCondition);
 
-        //boolean secondCondition =
+        //b)
+        String isUpper = password.replaceAll("[^A-Z]", "");
+        System.out.println("isUpper = " + isUpper);
+        boolean secondCondition = isUpper.length() > 0;
+        System.out.println("secondCondition = " + secondCondition);
+
+        //c)
+        String isLower = password.replaceAll("[^a-z]", "");
+        boolean thirdCondition = isLower.length() > 0;
+        System.out.println("thirdCondition = " + thirdCondition);
+
+        //d)
+        String isNumberContain = password.replaceAll("[^0-9]", "");
+        boolean fourthCondition = isNumberContain.length() > 0;
+        System.out.println("fourthCondition = " + fourthCondition);
+
+        boolean isCorrectPassword = firstCondition && secondCondition && thirdCondition && fourthCondition;
+        System.out.println("isCorrectPassword = " + isCorrectPassword);
 
 
     }
