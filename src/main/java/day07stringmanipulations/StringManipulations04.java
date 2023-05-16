@@ -47,5 +47,57 @@ public class StringManipulations04 {
 
          */
 
+        /*
+        Java'da kullanılan bazı meşhur regex (düzenli ifade) örnekleri aşağıda listelenmiştir:
+
+        \\d: Rakamları eşleştirir.
+        Örneğin, "123" ifadesi \d ile eşleşir.
+
+        \\D: Rakam olmayan karakterleri eşleştirir.
+        Örneğin, "abc" ifadesi \D ile eşleşir.
+
+        \\w: Harf veya rakamları eşleştirir.
+        Örneğin, "a1b2c3" ifadesi \w ile eşleşir.
+
+        \\W: Harf veya rakam olmayan karakterleri eşleştirir.
+        Örneğin, "!@#$" ifadesi \W ile eşleşir.
+
+        \\s: Boşluk karakterlerini eşleştirir.
+        Örneğin, "Hello World" ifadesi \s ile eşleşir.
+
+        \\S: Boşluk olmayan karakterleri eşleştirir.
+        Örneğin, "HelloWorld" ifadesi \S ile eşleşir.
+
+        .: Herhangi bir karakteri eşleştirir (Yeni satır karakteri hariç).
+        Örneğin, "abc" ifadesi . ile eşleşir.
+
+        *: Önceki ifadenin sıfır veya daha fazla tekrarını eşleştirir.
+        Örneğin, "aaa" ifadesi a* ile eşleşir.
+
+        +: Önceki ifadenin bir veya daha fazla tekrarını eşleştirir.
+        Örneğin, "aaa" ifadesi a+ ile eşleşir.
+
+        ?: Önceki ifadenin sıfır veya bir kez tekrarını eşleştirir.
+        Örneğin, "ab" ifadesi ab? ile eşleşir.
+
+        []: Karakter kümesini eşleştirir.
+        Örneğin, "a" veya "b" ifadeleri [ab] ile eşleşir.
+
+        [^]: Karakter kümesinin dışındaki karakterleri eşleştirir.
+        Örneğin, "c" ifadesi [^ab] ile eşleşir.
+
+        \\b: Kelime sınırlarını eşleştirir.
+        Örneğin, "Hello" ifadesi \\bHello\\b ile eşleşir.
+
+        \\A: Girişin başını eşleştirir.
+        Örneğin, "Hello" ifadesi \\AHello ile eşleşir.
+
+        \\z: Girişin sonunu eşleştirir.
+        Örneğin, "World" ifadesi World\\z ile eşleşir.
+
+        Bu, Java'da yaygın olarak kullanılan bazı regex örnekleridir.
+        Regex, metin işleme ve arama/geliştirme alanlarında güçlü bir araçtır
+         */
+
     }
 }
