@@ -1,8 +1,8 @@
-package exercises;
+package hackerrank;
 
 import java.util.Scanner;
 
-public class HackerRank {
+public class HackerRank01 {
 
 
     public static void main(String[] args) {
