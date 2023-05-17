@@ -3,11 +3,10 @@ package day11nestedifternaryincrementdecrement;
 public class IncrementDecrement {
     public static void main(String[] args) {
 
-        /*
+          /*
         h** h// çarpma ve bölme yoktur. çünkü bir sayının bir ile çarpımı
         ve bölümü yine kendisidir.
          */
-
 
         //Increment
         int a = 5;
@@ -75,6 +74,50 @@ public class IncrementDecrement {
         //h-=1;
         h--;
 
+        //"post-increment" ve "pre-increment"
+
+        int i = 10;
+        int k = i++;//post incerement
+
+        System.out.println(k);//10 ==> i artirilmadan "k" ya konuldugu icin "k" nin degeri 10 olur
+        System.out.println(i);//11 ==> i satir sonunda artirildigi icin 1 nin degeri 11 olur
+
+
+        int m = 15;
+        int n = ++m;//pre incerement
+        System.out.println(m);//16
+        System.out.println(n);//16
+
+        //Ornek
+        int p = 17;
+        int r = p--;
+
+        System.out.println(p);//16
+        System.out.println(r);//17
+
+        int s = 20;
+
+        int t = --s;
+
+        System.out.println(s);
+        System.out.println(t);
+
+        /*
+        1)Increment artirmak demektir, decrement azaltmak demektir.
+        2) Increment toplama ve carpma ile, decrement cikarma ve bolme ile yapilabilir
+                a)i=i+5;
+                b)i+=5;
+                c)eger 1 ile artirma ==> i++
+                note:bu c sikki sadece 1 artirmak icin kullanilir
+
+                a)i=i-5;
+                b)i-=5;
+                c)eger 1 ile azaltma ==> i--
+                note:bu c sikki sadece 1 azaltmak icin kullanilir
+
+         */
 
     }
 }
+
+
