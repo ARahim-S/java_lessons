@@ -16,22 +16,22 @@ public class NestedIf01 {
         */
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Cinsiyetiniz giriniz..");
+        System.out.println("Please enter your gender..");
         String gender = input.next();
 
-        System.out.println("Yasinizi giriniz..");
+        System.out.println("please enter your age..");
         int age = input.nextInt();
 
         if(age<0 || age >120){
 
-            System.out.println("Lutfen yasi 0 ile 120 arasinda giriniz");
+            System.out.println("Please enter age between 0 and 120");
 
-        }else if(gender.equalsIgnoreCase("Kadin")){
+        }else if(gender.equalsIgnoreCase("woman")){
 
             if(age>60){
-                System.out.println("Emekli olabilir");
+                System.out.println("can retire");
             }else{
-                System.out.println("Calismali...");
+                System.out.println("should work more...");
             }
 
         } else if (gender.equalsIgnoreCase("Erkek")) {
