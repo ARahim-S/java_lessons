@@ -7,6 +7,7 @@ public class Questions {
              Kullanicidan alacaginiz iki sayiyi yine kullaniciya sectireceginiz
               dort islemden biri ile isleme koyup sonucun yazdiriniz
 
+        ----------------------------------------------------------------------
 
         Q02
         TASK :
@@ -20,7 +21,35 @@ public class Questions {
          a+c>b>a-c
          b+c>a>b-c
         a=b=c ise es kenar ucgen
+        ----------------------------------------------------------------------
+        Q03
+        TASK :
+        Kullanicinin boyunu  m  ve kilosunu kg alarak  BMI (VKE) hesaplayiniz
+        INFO :
+        BMI = kilo(kg) /(boy*boy)(m)
+        BMI <=20 oldukca zayifsiniz
+        20<BMI<=25 Normal sinirlardasiniz
+        25<BMI<=30 Sisman kategorisindesiniz
+        30<BMI ==> Obez grubundasiniz.
 
+        BMI (Body Mass Index)
+        ----------------------------------------------------------------------
+        Q04
+        /TASK :
+        Kullanicidan IT alanini bilgisini alarak console'a
+        meslegi = qa ==> Quality Analyst
+                     dev ==> Developer
+                      ba ==> Busines Analyst
+                      pm ==> Project Manager
+        bilgilileri yazdiriniz
+
+        ----------------------------------------------------------------------
+        Q05
+        TASK :
+        Kullanicidan  yasini ve kilosunu alaliniz
+        18 yasindan kucuk ise kan bagisi yapamaz
+        18 yasindann buyuk ve 50 kilo dan hafif ise kan bagisi yapamaz.
+        18 yasindan buyuk ve 50 kilodan agir ise kan bagisi yapabilir.
 
 
      */
