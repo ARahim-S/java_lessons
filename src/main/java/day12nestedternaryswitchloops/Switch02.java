@@ -40,8 +40,14 @@ public class Switch02 {
                 break;
             default:
                 System.out.println("Gecerli ay numarasi veriniz..");
+
         }
 
+        /*
+        Note : "switch" condition parantezi icinde String, int, byte, short, char kullanilabilir
+        Note :  "switch" condition parantezi icinde long, boolean, float, double kullanilamaz.
+
+         */
 
     }
 
