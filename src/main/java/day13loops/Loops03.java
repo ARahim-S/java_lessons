@@ -25,26 +25,3 @@ public class Loops03 {
 
     }
 }
-
-/*
-soru1:  // 41 kere maşallah print ediniz
-soru2: girilen sayıdan 100e kadar 4 ün katı olan tam sayıları print eden kod yazınız
-soru3:  100'den 0'a kadar 13'e tam bölünebilen sayıları ekrana yazdırınız (büyükten küçüğe).
-    Ekran Çıktısı asagidaki sekilde olsun; ayrica sonrasinda bu sayilarin toplamini da yazdirin
-    istenen sonuc :
-     91
-     78
-     65
-     52
-     39
-     26
-     13
-
-     soru4: Kullanıcıdan 1'den büyük bir tam sayı girmesini isteyin
-   ve 1'den girilen tam sayıya kadar olan sayıların karelerinin toplamını
-   hesaplayan kodu yazın
-  Örnek Ekran Çıktısı
-  Girilen sayı=4
-  Kareler toplamı=14
-
- */

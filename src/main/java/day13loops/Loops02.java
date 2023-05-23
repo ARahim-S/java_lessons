@@ -36,7 +36,7 @@ public class Loops02 {
 
             char ch = s1.charAt(i);
             if (ch == 'a') {
-                break;
+                break; //break okuduktan sonra loop bodysinin dışına çıkar. loop artık çalışmaz.
             }
             System.out.print(ch);
         }
