@@ -57,5 +57,16 @@ public class Loops01 {
 
         }
 
+        String str = "ahmet";
+        System.out.println(str.length());
+        for (int i = 0; i < str.length(); i++) {
+            if (i % 2 == 0) {
+                System.out.println(str.toUpperCase().charAt(i));
+            }
+
+        }
+        //şart kısmında mümkünse tek operatör kullanalım.
+        // <= yerine < veya >= yerine > şeklinde. Java daha az çalışsın kontrol yapsın diye.
+
     }
 }
