@@ -24,6 +24,6 @@ public class DoWhileLoop02 {
                 System.out.println("Kaybettiniz..");
                 break; // döngünün dışına çık demektir.
             }
-        } while (true); // do while sürekli çalışır
-    }
+        } while (true); // do while sürekli çalışır-sürekli kullanıcıdan cevap alır fakat break gördüğü zaman döngünün dışına atar
+    }//false olursa sadece bir kere çalışır
 }
