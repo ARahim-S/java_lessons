@@ -85,5 +85,7 @@ public class Arrays02 {
         }
         System.out.println(toplam / notlar.length);
 
+        //Array yada collection ile çalışıyorsanız ilk tercihiniz for each loop (enchanced loop) olmalıdır.
+
     }
 }
